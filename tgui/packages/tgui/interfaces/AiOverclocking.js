@@ -1,6 +1,6 @@
 import { Fragment } from 'inferno';
 import { useBackend, useLocalState } from '../backend';
-import { Box, Button, Section, NumberInput, NoticeBox, LabeledList, Collapsible, ProgressBar } from '../components';
+import { Box, Button, Section, NumberInput, NoticeBox, LabeledList, Collapsible, ProgressBar, Knob } from '../components';
 import { Window } from '../layouts';
 
 
@@ -88,7 +88,11 @@ export const AiOverclocking = (props, context) => {
             <Button color="bad" fluid icon="trash" mt={0.5} onClick={(e, value) => act('stop_overclock')}>Cancel</Button>
           </Section>
         )}
+      <Section title="test">
+          <Knob size="1.5" animated unit="ligma" value={1} minValue={0} maxValue={10} step={0.1}>
 
+          </Knob>
+      </Section>
       </Window.Content>
     </Window>
   );
