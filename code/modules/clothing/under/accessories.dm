@@ -102,14 +102,6 @@
 	minimize_when_attached = FALSE
 	attachment_slot = null
 
-/obj/item/clothing/accessory/sharkhoodie
-	name = "shark hoodie"
-	desc = "Standard apparel of shark enthusiasts everywhere."
-	icon_state = "shark_hoodie"
-	item_state = "shark_hoodie"
-	minimize_when_attached = FALSE
-	attachment_slot = null
-
 
 //////////
 //Medals//
