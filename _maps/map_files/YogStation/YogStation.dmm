@@ -18154,10 +18154,6 @@
 /obj/effect/turf_decal/trimline/red/filled/line,
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
-"cSC" = (
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/hallway/primary/aft_starboard)
 "cSF" = (
 /obj/machinery/newscaster{
 	pixel_y = 32
@@ -19368,6 +19364,9 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/chief)
+"dze" = (
+/turf/open/floor/plating,
+/area/science/misc_lab)
 "dzl" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -24889,23 +24888,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos_distro)
-"fKY" = (
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#e8eaff"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/aft_starboard)
 "fLa" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -26979,6 +26961,17 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"gMU" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "xenobio_l";
+	name = "Left side containment blast door"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/science/xenobiology)
 "gNM" = (
 /obj/structure/closet/radiation,
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -27671,6 +27664,32 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics)
+"hcY" = (
+/obj/machinery/door/window/brigdoor/eastright{
+	dir = 2;
+	req_access_txt = "55"
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "xenodesk";
+	name = "xenobiology lab shutters"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 4
+	},
+/obj/item/deskbell/preset/xenobio{
+	pixel_x = 9;
+	pixel_y = 5
+	},
+/turf/closed/wall/r_wall,
+/area/science/xenobiology)
 "hcZ" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -29098,6 +29117,25 @@
 /obj/effect/turf_decal/trimline/red/filled/corner,
 /turf/open/floor/plasteel,
 /area/security/prison/hallway)
+"hEs" = (
+/obj/item/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_x = 28
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/hallway/primary/aft_starboard)
 "hEv" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
@@ -30521,6 +30559,23 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/processing)
+"iiv" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#e8eaff"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/hallway/primary/aft_starboard)
 "iiE" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -31639,25 +31694,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
-"iGf" = (
-/obj/item/radio/intercom{
-	name = "Station Intercom (General)";
-	pixel_x = 28
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 9
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/effect/turf_decal/trimline/purple/filled/corner{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/aft_starboard)
 "iGn" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -50906,6 +50942,13 @@
 	},
 /turf/open/floor/wood,
 /area/library)
+"qRY" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/r_wall,
+/area/hallway/primary/aft_starboard)
 "qSc" = (
 /obj/structure/table,
 /obj/machinery/camera{
@@ -59083,6 +59126,9 @@
 /obj/effect/turf_decal/trimline/purple/filled/corner,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"uqA" = (
+/turf/open/floor/plating,
+/area/science/xenobiology)
 "ure" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -60663,32 +60709,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/sleeper)
-"uYC" = (
-/obj/machinery/door/window/brigdoor/eastright{
-	dir = 2;
-	req_access_txt = "55"
-	},
-/obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "xenodesk";
-	name = "xenobiology lab shutters"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/border_only,
-/obj/effect/turf_decal/trimline/purple/filled/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/purple/filled/corner{
-	dir = 4
-	},
-/obj/item/deskbell/preset/xenobio{
-	pixel_x = 9;
-	pixel_y = 5
-	},
-/turf/open/floor/plasteel,
-/area/science/xenobiology)
 "uZh" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 5
@@ -66999,6 +67019,10 @@
 	},
 /turf/open/floor/engine,
 /area/science/mixing/chamber)
+"xQp" = (
+/obj/effect/turf_decal/delivery,
+/turf/closed/wall/r_wall,
+/area/hallway/primary/aft_starboard)
 "xQA" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8;
@@ -111469,7 +111493,7 @@ iZX
 tQD
 jUX
 tQD
-tXk
+qRY
 jnH
 vNx
 bfP
@@ -111726,10 +111750,10 @@ tbF
 bcR
 rJU
 sLk
-fKY
-iGf
-cSC
-uYC
+iiv
+hEs
+xQp
+hcY
 qZJ
 bOL
 iPe
@@ -113023,7 +113047,7 @@ bDb
 ooC
 gPr
 bDb
-wbN
+gMU
 xZv
 rgh
 kOd
@@ -113282,7 +113306,7 @@ dmv
 iSr
 cTn
 vtX
-piv
+uqA
 cTn
 vtX
 piv
@@ -117133,7 +117157,7 @@ bTl
 bTl
 akD
 bQZ
-bZZ
+dze
 lSM
 gFN
 fWQ
