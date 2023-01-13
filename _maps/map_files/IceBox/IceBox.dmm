@@ -41979,6 +41979,12 @@
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors)
+"bGR" = (
+/obj/structure/table,
+/obj/item/hand_labeler,
+/obj/item/gun/syringe,
+/turf/open/floor/plasteel/white,
+/area/medical/sleeper)
 "bGS" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/atmospherics/components/binary/pump{
@@ -58657,15 +58663,6 @@
 /obj/machinery/atmospherics/components/unary/tank/toxins,
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
-"jkX" = (
-/obj/structure/rack,
-/obj/item/storage/lockbox/loyalty,
-/obj/item/circuitboard/machine/techfab/department/security,
-/obj/item/card/id/departmental_budget/sec,
-/obj/item/reagent_containers/syringe/lethal/execution,
-/obj/item/gun/syringe,
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "jmn" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -58872,6 +58869,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
+"jQA" = (
+/obj/structure/rack,
+/obj/item/storage/lockbox/loyalty,
+/obj/item/circuitboard/machine/techfab/department/security,
+/obj/item/card/id/departmental_budget/sec,
+/obj/item/reagent_containers/syringe/lethal/execution,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/security/armory)
 "jQW" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -63335,11 +63340,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
-"vTm" = (
-/obj/structure/table,
-/obj/item/hand_labeler,
-/turf/open/floor/plasteel/white,
-/area/medical/sleeper)
 "vUa" = (
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
@@ -94581,7 +94581,7 @@ abY
 aag
 aag
 aaZ
-jkX
+jQA
 adl
 awX
 adl
@@ -102370,7 +102370,7 @@ bvj
 nOK
 bqW
 bCT
-vTm
+bGR
 bIj
 ihS
 btU
