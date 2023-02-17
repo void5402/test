@@ -290,8 +290,6 @@ GLOBAL_LIST_INIT(allowed_translations,list(/datum/language/common,/datum/languag
 /datum/signal
 
 /proc/LangBit2Datum(langbits) // Takes in the set language bits, returns the datum to use
-	if(istype(langbits, /datum/language))
-		return langbits
 	switch(langbits)
 		if(HUMAN)
 			return /datum/language/common
